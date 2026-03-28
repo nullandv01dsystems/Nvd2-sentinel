@@ -41,13 +41,13 @@ A lightweight threat telemetry pipeline built around:
 ## Environment assumptions
 
 ### Collector
-- Host: `10.10.30.102`
+- Host: `Collector`
 - PostgreSQL database: `sentinel`
 - PostgreSQL user: `sentinel_user`
 - API listening on port `8000`
 
 ### LLM server
-- Host: `10.10.30.114`
+- Host: `Your LLM Host`
 - Ollama model: `qwen3b-honeypot`
 - LLM API listening on port `5000`
 
