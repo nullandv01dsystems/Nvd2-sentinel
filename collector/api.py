@@ -11,7 +11,7 @@ CORS(app)
 DB_CONFIG = {
     "dbname": "sentinel",
     "user": "sentinel_user",
-    "password": "NVD2StrongPass!2026",
+    "password": "!changeMe!",
     "host": "127.0.0.1",
     "port": 5432,
 }
