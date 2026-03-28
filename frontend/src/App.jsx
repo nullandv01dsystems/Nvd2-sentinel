@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import "./App.css";
 
-const API_BASE = "http://10.10.30.102:8000";
+const API_BASE = "http://<Collectors IP>:8000";
 
 function cx(...parts) {
   return parts.filter(Boolean).join(" ");
@@ -221,7 +221,7 @@ export default function App() {
           <h1>NVD² Sentinel</h1>
           <p className="hero-subtitle">Live attack telemetry, enrichment, and AI-assisted threat triage.</p>
           <div className="hero-pills">
-            <Badge className="hero-pill">Collector: 10.10.30.102</Badge>
+            <Badge className="hero-pill">Collector: <IP></Badge>
             <Badge className="hero-pill">Sensor Fleet: Active</Badge>
             <Badge className="hero-pill live-pill">Threat Intel Enabled</Badge>
           </div>
