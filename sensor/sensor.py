@@ -7,7 +7,7 @@ from typing import Optional
 
 import requests
 
-COLLECTOR_URL = "http://api.nullandv01dsystems.com:8000/api/ingest"
+COLLECTOR_URL = "http://API:8000/api/ingest"
 LOG_FILE = "/home/cowrie/cowrie/var/log/cowrie/cowrie.json"
 STATE_FILE = os.path.expanduser("~/.sensor_offset")
 POLL_INTERVAL = 2
