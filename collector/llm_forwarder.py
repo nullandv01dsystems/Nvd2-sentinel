@@ -9,12 +9,12 @@ import requests
 DB_CONFIG = {
     "dbname": "sentinel",
     "user": "sentinel_user",
-    "password": "NVD2StrongPass!2026",
+    "password": "!changeMe!",
     "host": "127.0.0.1",
     "port": 5432,
 }
 
-LLM_API_URL = "http://10.10.30.114:5000/analyze"
+LLM_API_URL = "http://<LLMIP>:5000/analyze"
 POLL_INTERVAL = 5
 BATCH_SIZE = 10
 
